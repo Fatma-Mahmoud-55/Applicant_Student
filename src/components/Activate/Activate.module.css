@@ -1,0 +1,47 @@
+.login{
+  height: 100vh;
+  /* background-image: url('../../img/mainLandingBg.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.login select {
+  border: none;
+  outline: none;
+  color: #06AED2;
+}
+
+
+.sign_up{
+  color: #06AED2 !important;
+}
+.btn-login, 
+.login .btn:hover{
+
+  background-color:  #06AED2; 
+  color:#ffffff !important;
+}
+
+.login .btn:focus{
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(181 91 82 / 25%);
+  background-color:  #06AED2; ;
+  color:#ffffff !important;
+}
+.btn_login, .btn_login:hover{
+
+  background-color:  #06AED2 !important;
+  color:#ffffff !important;
+}
+.registerImg{
+  background-color: rgba(181, 91, 82, 0.05);
+ }
+
+ .row{
+  --bs-gutter-x: 0 !important;
+}
+.sign_up{
+  color: black !important;
+}

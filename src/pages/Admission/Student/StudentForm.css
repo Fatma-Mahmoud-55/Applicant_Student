@@ -1,0 +1,144 @@
+
+.side{
+    background: #0951FE;
+    /*font-family: ;*/
+}
+.formSteps span{
+    width:30px;
+    height: 6px;
+    border-radius: 2px;
+    display: inline-block;
+    background-color: #EDEDED;
+
+}
+.formSteps .active {
+    background-color: #0242FF;
+}
+
+.information{
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16);
+}
+input , select{
+    border: 0.5px solid #A9B2CC !important;
+    border-radius: 4px !important;
+
+}
+option{
+    text-align: left;
+    color:#031F7D !important
+}
+::placeholder {
+    color:#031F7D !important;
+    text-align:left;
+    font-size: 12px;
+}
+.checkRobotBox{
+    box-shadow: 0px 1px 4px rgba(2, 66, 255, 0.3);
+    border-radius: 4px;
+    display: inline-block;
+}
+.imgContainer{
+  max-height: 70vh;
+  
+}
+label{
+  font-size: 14px;
+  color: #001765;
+  /* font-weight: 600; */
+
+  font-weight: 400;
+  /* font-size: 14px; */
+  text-align: left !important;
+}
+
+.scrollDiv {
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    overscroll-behavior-y: contain ;
+     direction: ltr;
+}
+html {
+    --scrollbarBG: #e5eaec;
+    --thumbBG: #0242FF;
+  }
+  .scrollDiv::-webkit-scrollbar {
+    width: 11px;
+  }
+  .scrollDiv {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  .scrollDiv::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+    direction: rtl;
+  }
+  .scrollDiv::-webkit-scrollbar-thumb {
+    direction: rtl;
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }
+  .box{
+    box-shadow: 0px 1px 4px rgba(2, 66, 255, 0.3);
+  }
+  .box label {
+    background-color: #0242FF;
+    color:#fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+  label svg{
+    fill:#fff;
+  }
+  .validateError{
+    position: relative;
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: normal;
+  }
+  /********************************************** to make footer at the bottom**********************/
+  .contentBox{
+    height: 100vh !important ;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+.navbar{
+    padding: 0px 0px;
+    border-radius: 0px !important;
+}
+.navbar .collapse{
+    color: #424242;
+    text-align: center;
+    font-family: '  Poppins';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform:capitalize ;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+}
+.applicationNum{
+  color: var(--blue-500, #0951FE);
+  text-align: center;
+  font-size: 30.1px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 42.14px */
+}
+@media (max-width: 1377px) and (min-width: 978px) {
+  .maincontainer {
+    width: 620px;
+  }
+}
+

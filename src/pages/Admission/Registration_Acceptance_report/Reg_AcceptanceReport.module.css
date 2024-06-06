@@ -1,0 +1,49 @@
+.w_80{
+    width:95% !important;
+}
+
+.tr_shadow {
+    box-shadow: 0px 10px 20px 0px #F1F5FF;
+}
+.reportTable{
+    border : 1px solid #CFD4E3 !important;
+    border-radius: 8px !important;
+    
+}
+.selectBg{
+    background-color: #ECF1FF !important;
+}
+.selectBg option{
+    border-radius: 8px !important;
+}
+.bg_row{
+    background-color:#F1F5FF !important;
+    
+}
+.courseTxt{
+    font-size: 20px !important;
+}
+.yearSize{
+    font-size: 16px !important;
+}
+.repText_primary{
+color:#0242FF !important;
+}
+.color{
+    color: #031F7D !important;
+}
+.color2{
+    color: #fff
+}
+.link:hover{
+    text-decoration: underline;
+}
+.margin_top{
+    margin-top: 100px !important;
+}
+.reportTableBox{
+    box-sizing: border-box !important;
+    border: 1px solid #CFD4E3;
+    box-shadow: 0px 1px 4px rgba(2, 66, 255, 0.3);
+    border-radius: 8px;
+}

@@ -1,0 +1,34 @@
+.w-10{
+    width:10%;
+}
+.w-20{
+    width:20%;
+}
+.nav-link{
+    color: #0242FF !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+}
+.navIconArrow{
+    font-size: 8px;
+}
+.navIcon{
+    font-size: 20px;
+}
+
+.input-group-text{
+    border: 1px solid #002AB7 !important;
+}
+
+.search-navbar{
+    color:#002AB7 ;
+    cursor: pointer;
+}
+
+.navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+}

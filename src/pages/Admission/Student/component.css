@@ -1,0 +1,108 @@
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.StufinalPage{
+    color:#002AB7 !important;
+    font-size: 40px !important;
+}
+.stuFinalPage_p {
+    color:#001765 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+ .inputfile  {
+    display: none;
+}
+
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+
+/* style 1 */
+
+.inputfile-1 + label , .inputfile-2 + label , .inputfile-3 + label
+,.inputfile-4 + label , .inputfile-5 + label
+, .inputfile-6 + label , .inputfile-7 + label
+,.inputfile-8 + label , .inputfile-9 + label
+, .inputfile-10 + label {
+    color: #f1e5e6;
+    background-color: #0242FF;
+    width:70%;
+    font-size: 14px;
+}
+p{
+    color: #001765;
+    font-weight: 600;
+}
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover ,
+.inputfile-2:focus + label,
+.inputfile-2.has-focus + label,
+.inputfile-2 + label:hover,
+.inputfile-3:focus + label,
+.inputfile-3.has-focus + label,
+.inputfile-3 + label:hover,
+.inputfile-4:focus + label,
+.inputfile-4.has-focus + label,
+.inputfile-4 + label:hover,
+.inputfile-5:focus + label,
+.inputfile-5.has-focus + label,
+.inputfile-5 + label:hover
+,.inputfile-6:focus + label,
+.inputfile-6.has-focus + label,
+.inputfile-6 + label:hover
+,.inputfile-7:focus + label,
+.inputfile-7.has-focus + label,
+.inputfile-7 + label:hover
+,.inputfile-8:focus + label,
+.inputfile-8.has-focus + label,
+.inputfile-8 + label:hover
+,.inputfile-9:focus + label,
+.inputfile-9.has-focus + label,
+.inputfile-9 + label:hover ,
+.inputfile-10:focus + label,
+.inputfile-10.has-focus + label,
+.inputfile-10 + label:hover{
+    background-color: #407854;
+}
+

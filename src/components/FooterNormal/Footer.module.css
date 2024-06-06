@@ -1,0 +1,39 @@
+.footerBg{
+    background-color: #002AB7;
+}
+
+.footerBg ul li{
+    color: #DDD8D8;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.footerBg ul li h5{
+    color: #FFFFFF;
+}
+
+.footerBg ul li input{
+    color: #FFFFFF !important;
+    background-color: transparent !important;
+    border: 1px solid #FFFFFF !important;
+    border-right: none;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 5px 10px;
+}
+
+.footerBg ul li input::placeholder{
+    color: #FFFFFF !important;
+    font-weight: 400;
+}
+
+.footerBg ul li button{
+    color: #002AB7 !important;
+    background-color: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+    border-left: none;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px 15px;
+    font-weight: 700;
+}

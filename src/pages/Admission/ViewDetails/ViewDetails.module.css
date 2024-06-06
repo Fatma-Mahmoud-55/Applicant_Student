@@ -1,0 +1,110 @@
+.w_80{
+    width:85% !important;
+}
+
+.header {
+    font-size: 16px !important;
+    color: #001765 !important;
+}
+.button{
+    background-color: #0242FF !important;
+    color: #fff;
+    width:20% ;
+}
+.approveBtn , .RejectedBtn{
+    text-transform: capitalize;
+    font-size: 14px !important;
+    height: 53px !important;
+    width:197px;
+}
+.approveBtn:hover , .RejectedBtn:hover{
+    color:#fff;
+}
+.approveBtn:hover{
+    background-color: #7DCE7D;
+}
+.RejectedBtn:hover{
+    background-color: #F56B6B;
+}
+.headerBox{
+    width: 690px !important;
+}
+.approveBtn{
+    background-color: #7DCE7D;
+    color:#fff;
+}
+.RejectedBtn{
+    background-color: #F56B6B ;
+    color:#fff;
+
+}
+.StudentName{
+ color:#031F7D;
+ font-size: 20px !important;
+}
+
+.info{
+color: #0242FF;
+font-size: 16px !important;
+border-bottom: 2px solid #ECF1FF !important;
+}
+.txt{
+    color: #001765 !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2;
+    text-transform: capitalize;
+}
+.data{
+    color:#002AB7 !important;
+    font-weight: 600 !important;
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-style: normal;
+    line-height: normal;
+    line-height: 2.3;
+    text-transform: capitalize;
+}
+
+.tr_shadow {
+    box-shadow: 0px 10px 20px 0px #F1F5FF;
+}
+
+.reportTable{
+    border : 1px solid #CFD4E3 !important;
+    border-radius: 8px !important;
+    
+}
+.selectBg{
+    background-color: #ECF1FF !important;
+}
+.selectBg option{
+    border-radius: 8px !important;
+}
+.bg_row{
+    background-color:#F1F5FF !important;
+    
+}
+.courseTxt{
+    font-size: 20px !important;
+}
+.yearSize{
+    font-size: 16px !important;
+}
+.repText_primary{
+color:#0242FF !important;
+}
+.color{
+    color: #031F7D !important;
+}
+.margin_top{
+    margin-top: 112px !important;
+}
+.reportTableBox{
+    box-sizing: border-box !important;
+    border: 1px solid #CFD4E3;
+    box-shadow: 0px 1px 4px rgba(2, 66, 255, 0.3);
+    border-radius: 8px;
+}

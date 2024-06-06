@@ -1,0 +1,33 @@
+
+.quick{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+   z-index: 888888;
+}
+
+.quickBtn{
+    width: 65px;
+    height: 65px;
+    z-index: 888888;
+    position: relative;
+}
+
+.quickContent{
+    position: absolute;
+    bottom: -30px;
+    left: -170px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    width: 200px;
+    z-index: 888866;
+}
+
+.quickLink{
+    color: #0242FF ;
+    text-decoration: none;
+    border-bottom: 1px solid #0242FF;
+    display: block;
+}

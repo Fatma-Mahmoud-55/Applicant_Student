@@ -1,0 +1,36 @@
+/* home section */
+.home {
+    margin-top: 150px;
+}
+.home .heading{
+    color: #083DDA;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111.5%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+.home .headingParag{
+    color: #000;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.btnApplicant{
+    background-color: #002AB7;
+    border: 1px solid #002AB7;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btnApplicant:hover{
+    background-color: #fff;
+    color: #002AB7;
+    border: 1px solid #002AB7;
+}

@@ -1,0 +1,41 @@
+.parentSection{
+    box-sizing: border-box !important;
+}
+.space{
+    height: 151px;
+    width: 80%;
+    margin: auto;
+}
+.boxContainer{
+    width:80%;
+    box-shadow: 0px 1px 4px rgba(2, 66, 255, 0.3);
+    border-radius: 8px;
+    margin: auto;
+}
+.detailBox{
+    width:90%;
+    margin: auto;
+}
+.applicantText{
+    color:#0242FF;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    border-bottom: 3px solid #ECF1FF !important;
+}
+.studentData{
+    color:#001765 !important;
+    
+    font-size: 14px !important;
+}
+.inputTxt {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #031F7D;
+}
+.span_style{
+    color:#F13737 !important;
+}
+.stuDataTxet{
+    font-size:24px !important;
+    color:#0242FF !important;
+}

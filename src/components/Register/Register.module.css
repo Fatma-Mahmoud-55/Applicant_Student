@@ -1,0 +1,17 @@
+
+.btnRegister{
+    background-color: #002AB7 !important ;
+    color:#ffffff !important;
+}
+
+.register .signIn{
+    color: #B55B52 !important;
+}
+
+.register .registerImg{
+ background-color: rgba(181, 91, 82, 0.05);
+}
+
+.row{
+    --bs-gutter-x: 0 !important;
+}
