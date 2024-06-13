@@ -22,7 +22,7 @@ function StudentStatus() {
     const applicant_nom = location.state.applicant_no;
     const iqama_idd = location.state.iqama_id;
 
-
+    console.log(iqama_idd,"DDDDDDDDDDDW#@#EEEEEEe")
 
     const [statusData , setStatusData] = useState({
         applicant_no:"",
@@ -102,7 +102,8 @@ function StudentStatus() {
         window.print();
     }
     function showData() {
-        navigate('/showStudentData')
+        // navigate('/showStudentData')
+        navigate('/showStudentData', { state: { applicant_no: applicant_nom, iqama_id: iqama_idd } })
     }
 
     return (

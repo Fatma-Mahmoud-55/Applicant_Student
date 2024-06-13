@@ -26,24 +26,24 @@ const login = async () => {
         if(res.data.token){
         localStorage.setItem("token",res.data.token);
 
-                Swal.fire({
-                    title: 'Success!',
-                    text: `Hello ${res.data.username}`,
-                    icon: 'success',
-                    timer:2000,
-                    showConfirmButton: false
-                });
+                // Swal.fire({
+                //     title: 'Success!',
+                //     text: `Hello ${res.data.username}`,
+                //     icon: 'success',
+                //     timer:2000,
+                //     showConfirmButton: false
+                // });
                 // navigate('/showStudentData')
             navigate('/applicant_status', { state: { applicant_no: studentId, iqama_id: nationalId } })
         }
     }).catch((err)=>{
         console.log(err,"errrrrr")
-        Swal.fire({
-            title: 'Error!',
-            text: ` ${err}`,
-            icon: 'error',
-
-        });
+        // Swal.fire({
+        //     title: 'Error!',
+        //     text: ` ${err}`,
+        //     icon: 'error',
+        //
+        // });
     })
 }
 
@@ -96,7 +96,7 @@ const login = async () => {
                     </div>
 
 
-                    <div className="col-md-6 col-sm pt-5 d-none d-sm-none bg-primary 
+                    <div className="col-md-6 col-sm pt-5 d-none d-sm-none bg-primary
                     d-md-flex justify-content-center align-items-center ">
                         <img src={img} />
                     </div>
