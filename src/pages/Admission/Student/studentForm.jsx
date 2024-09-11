@@ -142,7 +142,7 @@ function StudentForm() {
             else{
                 Swal.fire({
                     title: 'Error!',
-                    text: ' is Missلللللللللللللللing ',
+                    text: ' is Missing ',
                     icon: 'error',
                 })
                 return
